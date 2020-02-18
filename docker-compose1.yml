@@ -1,0 +1,11 @@
+version: '3.5'
+services: 
+ eywebappdevi:
+  image: deviwebapp:v10
+  build: 
+   context: .
+   dockerfile: devi.dockerfile
+  container_name: devieyc11
+  ports: 
+   - "8789:80"
+  
