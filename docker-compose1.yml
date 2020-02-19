@@ -5,6 +5,6 @@ services:
   build: 
    context: .
    dockerfile: devi.dockerfile
-  container_name: devieycontainer
+  container_name: devieyc199
   ports: 
    - "9898:80" 
